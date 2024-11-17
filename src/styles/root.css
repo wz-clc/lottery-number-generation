@@ -1,0 +1,8 @@
+/* 可在此处定义项目的css全局变量 */
+
+/* 基本配置 */
+:root {
+  --app-font-size: 16px;
+  --app-max-viewport: 1200px;
+  --app-min-viewport: 320px;
+}

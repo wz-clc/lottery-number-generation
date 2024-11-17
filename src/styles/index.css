@@ -1,0 +1,11 @@
+@import url('./tailwind.css');
+@import url('./root.css');
+
+html {
+  overflow-y: scroll !important;
+  font-size: var(--app-font-size) !important;
+}
+
+body {
+  touch-action: manipulation;
+}
