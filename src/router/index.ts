@@ -1,13 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import routerAuth from './router-auth'
 import Home from './routes/home'
 
-
 const router = createRouter({
-  history: createWebHistory(),
-  routes: [
-    ...Home,
-  ],
+  history: createWebHashHistory(),
+  routes: [...Home],
 })
 
 routerAuth(router) // 绑定全局路由守卫

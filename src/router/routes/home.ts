@@ -17,7 +17,7 @@ const routes: RouteRecordRaw[] = [
         name: 'SuperLottoPage',
         component: SuperLottoPage,
         meta: {
-          title: '双色球',
+          title: '超级大乐透',
         },
       },
     ],
